@@ -1,8 +1,8 @@
-# Use Python 3.10
-FROM python:3.12
+# Use Python 3.10 instead of 3.12
+FROM python:3.10
 
 # Set working directory
-WORKDIR /app
+WORKDIR /TrackAPIweb
 
 # Copy all files
 COPY . .
