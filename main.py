@@ -25,6 +25,7 @@ face_mesh = mp_face_mesh.FaceMesh(
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
+    print("WebSocket connection established")
     await websocket.accept()
     try:
         while True:
