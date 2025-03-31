@@ -1,5 +1,6 @@
 # Remove the files from Git's tracking while keeping them on your disk
 git rm --cached face_L.jpg
+git rm --cached face_F.jpg
 
 # For example, if you want to ignore all .env files:
 git rm --cached *.env
